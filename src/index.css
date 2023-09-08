@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* ================================================== */
+/* Header Page CSS */
+
+.navbar{
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+.logoimg{
+  width: 40px;
+}
+.navlink{
+ margin: 0 16px;
+ color: rgb(67, 66, 66);
+ text-decoration: none;
+
+}
+.navlink:hover{
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+
+/* ====================================== */
+/* Home Page CSS */
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  margin-left: 20px;
+  margin-right: 30px;
+  
+}
+.left-container{
+  
+margin-right: 80px;
+margin-left: 80px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+}
+.hinfo{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:x-large;
+  font-weight: 800;
+
+}
+.hname{
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: x-large;
+font-weight: 700;
+color: #cc0066;
+}
+.pname{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: 700;
+}
+.intro{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+.link-btn{
+  text-decoration: none;
+  background:linear-gradient(#dd5e89 , #f7bb97);
+  padding: 10px 15px;
+  color:black;
+  border-radius: 25px;  
+  font-weight: 600; 
+  
+}
+.link-btn:hover{
+  background: #e0e0e0;
+  color: black;
+}
+.homeimg{
+  width:450px;
+}
+@media (max-width:995px){
+  .main-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
+/* ========================================== */
+/* About Page CSS */
+.abpage{
+  background: url(../src/images/AboutPage.jpg);
+  min-height: 85vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.abhead{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:x-large;
+  font-weight: 800;
+  color:#99004c;
+
+}
+.abpara{
+  margin-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:large;
+  font-weight: 300;
+
+}
+.pic{
+  width: 250px;
+  margin-left: 100px;
+  margin-right: 70px;
+  border-radius: 50%;
+
+
+}
+.cvbtn{
+  margin-left: 30px;
+}
+
+/* =================================================== */
+/* Education Page CSS */
+.main-edu{
+  min-height: 75vh;
+  background: url(../src/images/edubk.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction:row;
+  align-items: flex-start;
+  justify-content:flex-start;
+
+}
+.edhead{
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-top: 35vh;
+
+
+}
+.eduhead{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:x-large;
+  font-weight: 800;
+  color:#99004c;
+
+
+}
+.edudetails{
+  display: flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+
+/* =========================================== */
+/* Skill Page CSS */
+.main-con{
+  min-height: 60vh;
+  /* background: url(../src/images/edubk.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #F5F5F5;
+
+
+}
+.head{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:x-large;
+  font-weight: 800;
+  color:#99004c;
+  padding-top: 20px;
+  /* margin-top: 20px; */
+}
+.first , .second ,.third{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.logoimgs{
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+.mongoimg{
+  width: 30px;
+}
+
+.logoimgs:hover{
+  width: 35px;
+}
+.third{
+  padding-bottom: 40px;
+}
+
+/* =============================================== */
+/* Footer Page CSS */
+.main-footer{
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.footerhead{
+  color: white;
+  font-size: 20px;
+}
+.imglogo{
+  width: 30px;
+  margin-left: 30px;
+}
+
+/* ======================================================================= */
+/* Contact page */
+.main{
+  min-height: 75vh;
+  background: url(../src/images/contact.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.ehead{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:x-large;
+  font-weight: 800;
+  color:#99004c;
+  margin-top: 20px;
+}
+.main-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form{
+  width: 450px;
+  margin-top: 5px;
+}
+.subbtn{
+  text-decoration: none;
+  background:linear-gradient(#dd5e89 , #f7bb97);
+  padding: 10px 45px;
+  color:black;
+  border-radius: 25px;  
+  font-weight: 600; 
+  margin-top: 5px;
+  
+
+}
+.subbtn:hover{
+  background: #e0e0e0;
+  color: black;
+}
+
